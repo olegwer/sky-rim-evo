@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4641209647871713562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4641209647871713556}
+  - component: {fileID: 4641209647871713557}
+  m_Layer: 0
+  m_Name: spawn_ctrl
+  m_TagString: spawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4641209647871713556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4641209647871713562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6034314, y: 5.6466646, z: -0.08335114}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4641209647871713557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4641209647871713562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed31f6d400c982946ad6862608cb3ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 4785144686808153888, guid: 5449dd211bfa08f47afe56753f3c7713, type: 3}
+  - {fileID: 6020228299265651614, guid: 93258ee37684ffb47a12af48afb3efe7, type: 3}
+  - {fileID: 2982930824537355966, guid: 718e408d67cd3d246b01dc98bfcd2a26, type: 3}
+  - {fileID: 6834592713148327591, guid: 9bde62a1a80afdf4bbcab85088357a47, type: 3}
+  - {fileID: 960154570100607977, guid: c78d27ae95e953c4f9f29ff669d4a263, type: 3}
+  powerups:
+  - {fileID: 1940936353875709123, guid: 9937aedb659118f458fc6ecc40bda9d7, type: 3}
+  - {fileID: 7153453065004243651, guid: 1d2f71b5d45cff044802c28422e373c1, type: 3}
+  - {fileID: 9033906211350148593, guid: 724b6f434b090e54090b2b3647db17d1, type: 3}
+  asteroids:
+  - {fileID: 145397712509556132, guid: 403050d82dc998d44b7c177199a22a0b, type: 3}
+  - {fileID: 145397712509556132, guid: 26c4cc44e83eefa40b881682075dc282, type: 3}
+  - {fileID: 145397712509556132, guid: c84c228855eda23449e2fc21adbd1df6, type: 3}
